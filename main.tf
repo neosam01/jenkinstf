@@ -1,5 +1,5 @@
 resource "aws_instance" "my_vm" {
- ami           = var.ami //ubuntu AMI
+ ami           = var.ami //ubuntu ami
  instance_type = var.instance_type
 
  tags = {
